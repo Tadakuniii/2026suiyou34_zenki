@@ -12,9 +12,8 @@ docker compose up
 ```
 docker compose exec mysql mysql example_db
 ```
-入力後MｙSQLクライアントが起動するので
+入力後MｙSQLクライアントが起動するので下記コードを入力
 ```
-
 CREATE TABLE `bbs_entries` (
     `id` INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
     `body` TEXT NOT NULL,
@@ -22,4 +21,7 @@ CREATE TABLE `bbs_entries` (
     `created_at` DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 ```
-
+```
+http://{ホスト名}/bbstest.php
+```
+にアクセスすると使える。
