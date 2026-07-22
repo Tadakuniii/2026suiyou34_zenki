@@ -4,6 +4,8 @@
 
 ## 使い方
 
-'docker compose up'
+```
+docker compose up
+```
 
 
