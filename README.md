@@ -22,6 +22,6 @@ CREATE TABLE `bbs_entries` (
 );
 ```
 ```
-http://{ホスト名}/bbstest.php
+http://{ホスト名}/bbsimagetest.php
 ```
 にアクセスすると使える。
